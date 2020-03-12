@@ -1,0 +1,8 @@
+{
+  "name": "eslint-config-squirrels-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "6.x"
+  }
+}
