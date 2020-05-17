@@ -17,7 +17,7 @@ module.exports = {
     ],
     extends: [
         ...baseExtends,
-        ...rulesExtends
+        ...rulesExtends,
     ],
     parserOptions: {
         emcaVersion: 2018,

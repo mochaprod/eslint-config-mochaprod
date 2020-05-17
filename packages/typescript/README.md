@@ -1,8 +1,8 @@
 # TypeScript
 
-Add TypeScript linting rules.
+TypeScript linting rules for base package. Also includes React/JSX rules.
 
-## Installation
+## Get dependencies
 
 ```sh
 npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser

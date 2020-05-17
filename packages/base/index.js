@@ -1,9 +1,9 @@
 const extendFromPackage = [
-    "eslint:recommended"
+    "eslint:recommended",
 ];
 
 const extendLocally = [
-    "./rules/syntax.js"
+    "./rules/syntax.js",
 ];
 
 module.exports = {
@@ -13,8 +13,11 @@ module.exports = {
         browser: true,
         es6: true,
     },
+    parserOptions: {
+        ecmaVersion: 8,
+    },
     extends: [
         ...extendFromPackage,
-        ...extendLocally.map(require.resolve)
+        ...extendLocally.map(require.resolve),
     ]
 };
