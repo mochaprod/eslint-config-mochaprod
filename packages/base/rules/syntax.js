@@ -24,10 +24,12 @@ module.exports = {
             "functions": "always-multiline",
             "exports": "always-multiline",
         }],
+        "block-spacing": ["error", "always"],
         "function-paren-newline": "off",
         "no-console": "warn",
         "no-undef": "warn",
         "no-underscore-dangle": "off",
-        "no-unused-vars": "warn"
+        "no-unused-vars": "warn",
+        "object-curly-spacing": ["error", "always"],
     },
 };
