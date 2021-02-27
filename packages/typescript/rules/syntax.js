@@ -4,7 +4,8 @@ module.exports = {
         "react/self-closing-comp": "error",
         "react/destructuring-assignment": ["error", "always"],
         "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
-        "react/jsx-first-prop-new-line": ["error", "multiline"],
+        "react/jsx-closing-tag-location": "error",
+        "react/jsx-first-prop-new-line": ["error", "always"],
         "react/jsx-no-useless-fragment": "error",
         "react/jsx-max-props-per-line": ["error", {
             when: "always",
@@ -12,6 +13,9 @@ module.exports = {
         }],
         "react/jsx-curly-spacing": ["error", {
             when: "always",
+            children: {
+                when: "always",
+            },
             spacing: {
                 allowMultiline: false,
                 objectLiterals: "always",
