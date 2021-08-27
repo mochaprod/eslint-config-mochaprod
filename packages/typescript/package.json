@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-squirrels-typescript",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "main": "index.js",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.20.0 || ^3",
-    "@typescript-eslint/parser": "^2.20.0 || ^3",
-    "eslint": "^6.6.0 || ^7"
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "eslint": "^7.0.0"
   },
   "dependencies": {
-    "eslint-config-squirrels-base": "^1.2.0",
-    "eslint-plugin-react": "^7.19.0"
+    "eslint-config-squirrels-base": "^2.0.0",
+    "eslint-plugin-react": "^7.0.0"
   }
 }
