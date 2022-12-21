@@ -1,37 +1,37 @@
 module.exports = {
     rules: {
-        "indent": [
+        indent: [
             "error",
-            4
+            4,
+            {
+                SwitchCase: 1,
+            },
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
+        "linebreak-style": ["error", "unix"],
+        quotes: ["error", "double"],
+        semi: ["error", "always"],
         "eol-last": "error",
         "arrow-parens": "off",
-        "comma-dangle": ["error", {
-            "arrays": "always-multiline",
-            "objects": "always-multiline",
-            "functions": "always-multiline",
-            "exports": "always-multiline",
-        }],
+        "comma-dangle": [
+            "error",
+            {
+                arrays: "always-multiline",
+                objects: "always-multiline",
+                functions: "always-multiline",
+                exports: "always-multiline",
+            },
+        ],
         "block-spacing": ["error", "always"],
         "function-paren-newline": ["error", "multiline-arguments"],
-        "max-len": ["error", {
-            code: 80,
-            ignoreStrings: true,
-            ignoreTemplateLiterals: true,
-            ignoreRegExpLiterals: true,
-        }],
+        "max-len": [
+            "error",
+            {
+                code: 80,
+                ignoreStrings: true,
+                ignoreTemplateLiterals: true,
+                ignoreRegExpLiterals: true,
+            },
+        ],
         "no-console": "warn",
         "no-multi-spaces": "error",
         "no-multiple-empty-lines": ["error", { max: 1 }],

@@ -1,8 +1,8 @@
 {
-  "name": "eslint-config-squirrels-base",
-  "version": "3.0.0",
+  "name": "eslint-config-mochaprod-base",
+  "version": "1.0.0",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^8.4.0"
+    "eslint": "^8"
   }
 }

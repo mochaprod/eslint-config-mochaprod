@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-squirrels",
-  "version": "3.0.0",
+  "name": "eslint-config-mochaprod",
+  "version": "1.0.0",
   "scripts": {
   },
   "license": "MIT"

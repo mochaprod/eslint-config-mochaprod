@@ -1,14 +1,19 @@
 {
-  "name": "eslint-config-squirrels-typescript",
-  "version": "3.0.0",
+  "name": "eslint-config-mochaprod-typescript",
+  "version": "1.0.0",
   "main": "index.js",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.7.0",
-    "@typescript-eslint/parser": "^5.7.0",
-    "eslint": "^8.4.0"
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8"
   },
   "dependencies": {
-    "eslint-config-squirrels-base": "^3.0.0",
-    "eslint-plugin-react": "^7.27.1"
+    "eslint-config-mochaprod-base": "^1.0.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
